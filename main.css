@@ -1,0 +1,81 @@
+.container {
+    margin: 20px auto;
+    text-align: center;
+    width: 75%;
+}
+.container .form {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .form .input {
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 0 10px;
+}
+.container .form .add {
+    height: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.container .tasks {
+    background-color: #eee;
+    min-height: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.container .tasks .task {
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    min-height: 40px;
+    padding: 0px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.container .tasks .task .delete {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.tasks .task.done {
+    opacity: 0.5;
+}
+.container .clear {
+    display: flex;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
